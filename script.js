@@ -54,3 +54,39 @@ const typed = new Typed('.moviment-text',{
 
 
 })
+
+
+const services = new Typed('.service-moviment', {
+    strings: [ 'Servicios!' ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000, 
+    loop: true 
+})
+
+
+const skills = new Typed('.skills-moviment', {
+    strings: [ 'Habilidades!' ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000, 
+    loop: true 
+})
+
+
+const projects = new Typed('.projects-moviment', {
+    strings: [ 'Proyectos!' ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000, 
+    loop: true 
+})
+
+
+const contact = new Typed('.contact-moviment', {
+    strings: [ 'tame!' ],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000, 
+    loop: true 
+})
