@@ -253,25 +253,26 @@ span{
 }
 
 .skills-box i{
-    font-size: 70px;
-    color: wheat;
+    font-size: 60px;
+    color: var(--main-color);
 
 }
 .skills-box h3{
     text-transform: uppercase;
     font-size: 15px;
-    color: #000000;
+    color: var(--main-color);
     font-family: Arial, Helvetica, sans-serif
 }
 
 .skills-container .skills-box{
-    background-image: url(./img-projects/header-img.svg);
+    background-image: url(./img-projects/img-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 2rem;
     border: 1px solid var(--main-color);
     box-shadow: 16px 15px 20px black ;
 }
+
 
 .projects{
     background: var(--second-bg-color);
@@ -314,13 +315,13 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0, .1), rgb(0, 195, 255));
+    background: linear-gradient(rgba(0, 0, 0, 0.486), rgb(0, 255, 255));
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 3rem;
     transform: translateY(100%);
     transition: .5s ease;
 }
@@ -338,19 +339,10 @@ span{
     margin: 3rem 0 1rem;
 }
 
-.projects-layer a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--text-color);
-    border-radius: 50%;
-}
 
 .projects-layer a i{
-    font-size: 2rem;
-    color: var(--second-bg-color);
+    font-size: 3rem;
+    color: var(--text-color);
 }
 .contact{
     background-image: url(./img-projects/img-bg.png);
