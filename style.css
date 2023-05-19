@@ -391,6 +391,10 @@ span{
     cursor: pointer;
 }
 
+#mail{
+    opacity: 0;
+}
+
 .footer{
     display: flex;
     justify-content: space-between;

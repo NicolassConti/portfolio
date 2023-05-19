@@ -90,3 +90,18 @@ const contact = new Typed('.contact-moviment', {
     backDelay: 1000, 
     loop: true 
 })
+
+
+/*CONTACT ME*/
+
+const $form = document.querySelector('#form')
+const $buttonMailto = document.querySelector('#mail')
+
+$form.addEventListener('submit', handleSubmit)
+
+function handleSubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
+    $buttonMailto.setAttribute('href', `mailto:me@continicolas6@gmail.com?subjet=${form.get('name')} ${form.get('email')}&body=${form.get('message')}`)
+    $buttonMailto.click()
+}
